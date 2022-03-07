@@ -29,7 +29,6 @@ function App() {
     <div className="App">
       <Greeting nameProps={nameList} />
       <Login />
-      <Counter />
     </div>
   );
 }

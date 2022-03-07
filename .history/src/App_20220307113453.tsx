@@ -2,14 +2,12 @@ import React from "react";
 
 import "./App.css";
 import Greeting from "./components/Greeting";
-import Login from "./components/state/Login";
-import Counter from "./components/state/Counter";
 
 function App() {
-  // const Name = {
-  //   firstName: "Đoàn",
-  //   lastName: "Lê",
-  // };
+  const Name = {
+    firstName: "Đoàn",
+    lastName: "Lê",
+  };
 
   const nameList = [
     {
@@ -17,19 +15,17 @@ function App() {
       lastName: "Lê",
     },
     {
-      firstName: "Phúc",
+      firstName: "Đoàn",
       lastName: "Lê",
     },
     {
-      firstName: "Duy",
+      firstName: "Đoàn",
       lastName: "Lê",
     },
   ];
   return (
     <div className="App">
-      <Greeting nameProps={nameList} />
-      <Login />
-      <Counter />
+      <Greeting nameProps={Name} />
     </div>
   );
 }
