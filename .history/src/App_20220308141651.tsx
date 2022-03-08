@@ -5,7 +5,6 @@ import Greeting from "./components/Greeting";
 import Login from "./components/state/Login";
 import Counter from "./components/state/Counter";
 import DomRef from "./components/ref/DomRef";
-import MutableRef from "./components/ref/MutableRef";
 
 function App() {
   // const Name = {
@@ -29,11 +28,10 @@ function App() {
   ];
   return (
     <div className="App">
-      <MutableRef />
-      <DomRef />
       <Greeting nameProps={nameList} />
       <Login />
       <Counter />
+      <DomRef />
     </div>
   );
 }
