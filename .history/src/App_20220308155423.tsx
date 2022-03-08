@@ -7,7 +7,6 @@ import "./App.css";
 // import DomRef from "./components/ref/DomRef";
 // import MutableRef from "./components/ref/MutableRef";
 import Home from "./components/auth/Home";
-import Profile from "./components/auth/Profile";
 
 function App() {
   // const Name = {

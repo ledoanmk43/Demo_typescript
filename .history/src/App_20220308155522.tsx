@@ -36,7 +36,7 @@ function App() {
       <Greeting nameProps={nameList} />
       <Login />
       <Counter /> */}
-      <Home isLoggedin={false} component={Profile} />
+      <Home isLoggedin={false} Component={Profile} />
     </div>
   );
 }
